@@ -43,6 +43,11 @@ header {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+#copyright {
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f4;
+}
 .button {
     display: block;
     width: 100%;
