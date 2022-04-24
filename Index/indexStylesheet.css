@@ -33,7 +33,7 @@ header {
 #userInfo label {
     display: block;
 }
-#userInfo input[type = "text"] {
+#userInfo input {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
