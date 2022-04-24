@@ -1,3 +1,4 @@
+/* Global / Class CSS Styling */
 * {
     margin: 0;
     padding: 0;
@@ -26,28 +27,6 @@ header {
     overflow: auto;
     padding: 3rem 2rem;
 }
-#userInfo {
-    padding: 2rem;
-    background: #f4f4f4;
-}
-#userInfo h1{
-    padding-bottom: 10px;
-}
-#userInfo label {
-    display: block;
-}
-#userInfo input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-#copyright {
-    text-align: center;
-    padding: 20px;
-    background: #f4f4f4;
-}
 .button {
     display: block;
     width: 100%;
@@ -70,4 +49,27 @@ header {
     color: #fff;
     padding: 5px;
     margin: 5px;
+}
+/* Userinfo CSS Design */
+#userInfo {
+    padding: 2rem;
+    background: #f4f4f4;
+}
+#userInfo h1{
+    padding-bottom: 10px;
+}
+#userInfo label {
+    display: block;
+}
+#userInfo input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#copyright {
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f4;
 }
