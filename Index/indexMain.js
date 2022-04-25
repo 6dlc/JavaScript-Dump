@@ -1,9 +1,11 @@
+// Constructed variables from HTML website
 const userInfo = document.querySelector('#userInfo');
 const nameInput = document.querySelector('#name');
 const emailInput = document.querySelector('#email');
 const msg = document.querySelector('.message');
 const userList = document.querySelector('#users');
 
+// Form submission events
 userInfo.addEventListener('submit', onSubmit);
 
 function onSubmit(e) {
